@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect fill="#FBF8F3" width="1200" height="630"/>
+  <rect fill="#7C3AED" x="0" y="0" width="1200" height="8"/>
+  <text x="600" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="72" font-weight="bold" fill="#292524">Global Holiday Tracker</text>
+  <text x="600" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#78716C">Upcoming E-commerce Events &amp; Public Holidays Worldwide</text>
+  <text x="600" y="420" text-anchor="middle" font-size="60">🌍 📅 🎉</text>
+  <text x="600" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#7C3AED">Multi-country Calendar | Countdown Timers | .ics Export | 100+ Countries</text>
+</svg>

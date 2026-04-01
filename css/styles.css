@@ -1,0 +1,87 @@
+/* Global Holiday Tracker - Custom Styles */
+
+/* Base */
+:root {
+  --color-cream: #FBF8F3;
+  --color-beige: #F3EDE4;
+  --color-plum: #7C3AED;
+  --color-plum-hover: #6D28D9;
+  --color-orange: #EA580C;
+  --color-rose: #FDE8E8;
+  --color-gold: #FEF3C7;
+  --color-green: #DCFCE7;
+  --color-text: #292524;
+  --color-text-secondary: #78716C;
+  --color-border: #D6D3D1;
+  --color-today: #A78BFA;
+}
+
+/* Calendar specific styles */
+.calendar-day:hover .calendar-events {
+  opacity: 1;
+}
+
+/* Country pill transitions */
+.country-pill {
+  transition: all 0.2s ease;
+}
+.country-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Countdown flip effect */
+@keyframes flip {
+  0% { transform: perspective(200px) rotateX(0); }
+  50% { transform: perspective(200px) rotateX(-10deg); }
+  100% { transform: perspective(200px) rotateX(0); }
+}
+
+.countdown-digits {
+  display: inline-block;
+}
+
+/* Skeleton loading */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Print styles */
+@media print {
+  .ad-placeholder, #ad-top-banner, #ad-mid-content, #ad-sidebar, #ad-footer-banner, #ad-adsense-slot {
+    display: none !important;
+  }
+  header { position: static; }
+  body { background: white; }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin, .animate-fade-in {
+    animation: none;
+  }
+  .countdown-digits {
+    animation: none;
+  }
+}
+
+/* Focus styles */
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 2px solid var(--color-plum);
+  outline-offset: 2px;
+}
+
+/* Mobile calendar compact */
+@media (max-width: 640px) {
+  .calendar-day {
+    min-height: 50px !important;
+    padding: 2px !important;
+  }
+}

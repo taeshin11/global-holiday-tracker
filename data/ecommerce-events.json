@@ -1,0 +1,126 @@
+[
+  {
+    "name": "New Year Sales",
+    "date": "2026-01-01",
+    "endDate": "2026-01-03",
+    "region": "Global",
+    "category": "shopping",
+    "description": "Post-New Year clearance sales worldwide",
+    "icon": "🛍️"
+  },
+  {
+    "name": "Valentine's Day",
+    "date": "2026-02-14",
+    "region": "Global",
+    "category": "gifts",
+    "description": "Peak gifting period for flowers, chocolates, jewelry",
+    "icon": "💝"
+  },
+  {
+    "name": "Super Bowl Sunday",
+    "date": "2026-02-08",
+    "region": "US",
+    "category": "sports",
+    "description": "Major advertising and consumer spending event in the US",
+    "icon": "🏈"
+  },
+  {
+    "name": "International Women's Day",
+    "date": "2026-03-08",
+    "region": "Global",
+    "category": "shopping",
+    "description": "Promotions on beauty, fashion, wellness products",
+    "icon": "🌸"
+  },
+  {
+    "name": "Mother's Day (US/CA/AU)",
+    "date": "2026-05-10",
+    "region": "US/CA/AU",
+    "category": "gifts",
+    "description": "Major gifting holiday for mothers - dates vary by country",
+    "icon": "💐"
+  },
+  {
+    "name": "Father's Day (US/CA/UK)",
+    "date": "2026-06-21",
+    "region": "US/CA/UK",
+    "category": "gifts",
+    "description": "Gifting holiday for fathers - dates vary by country",
+    "icon": "👔"
+  },
+  {
+    "name": "Amazon Prime Day",
+    "date": "2026-07-15",
+    "endDate": "2026-07-16",
+    "region": "Global",
+    "category": "tech",
+    "description": "Amazon's annual Prime member exclusive deals event",
+    "icon": "📦"
+  },
+  {
+    "name": "Back to School",
+    "date": "2026-09-01",
+    "endDate": "2026-09-15",
+    "region": "Global",
+    "category": "shopping",
+    "description": "Back-to-school shopping season for supplies and electronics",
+    "icon": "🎒"
+  },
+  {
+    "name": "Halloween",
+    "date": "2026-10-31",
+    "region": "US/Global",
+    "category": "shopping",
+    "description": "Costumes, candy, and decorations shopping peak",
+    "icon": "🎃"
+  },
+  {
+    "name": "Singles Day (11.11)",
+    "date": "2026-11-11",
+    "region": "China/Global",
+    "category": "shopping",
+    "description": "World's largest online shopping event, originated by Alibaba",
+    "icon": "🛒"
+  },
+  {
+    "name": "Black Friday",
+    "date": "2026-11-27",
+    "region": "US/Global",
+    "category": "shopping",
+    "description": "Biggest shopping day of the year, day after US Thanksgiving",
+    "icon": "🏷️"
+  },
+  {
+    "name": "Cyber Monday",
+    "date": "2026-11-30",
+    "region": "US/Global",
+    "category": "tech",
+    "description": "Online-focused deals day following Black Friday weekend",
+    "icon": "💻"
+  },
+  {
+    "name": "Christmas Sales",
+    "date": "2026-12-25",
+    "endDate": "2026-12-26",
+    "region": "Global",
+    "category": "shopping",
+    "description": "Christmas holiday shopping and gift-giving season",
+    "icon": "🎄"
+  },
+  {
+    "name": "Boxing Day Sales",
+    "date": "2026-12-26",
+    "region": "UK/CA/AU",
+    "category": "shopping",
+    "description": "Post-Christmas clearance sales in Commonwealth countries",
+    "icon": "🎁"
+  },
+  {
+    "name": "Year-End Sales",
+    "date": "2026-12-31",
+    "region": "Global",
+    "category": "shopping",
+    "description": "End-of-year clearance and New Year countdown promotions",
+    "icon": "🎆"
+  }
+]

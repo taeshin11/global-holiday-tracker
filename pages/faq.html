@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Global Holiday Tracker</title>
+  <meta name="description" content="Frequently asked questions about Global Holiday Tracker - multi-country holiday tracking and calendar export.">
+  <link rel="canonical" href="https://global-holiday-tracker.vercel.app/pages/faq.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+  <style>body { background-color: #FBF8F3; font-family: 'Inter', system-ui, sans-serif; }</style>
+</head>
+<body class="min-h-screen">
+  <header class="bg-white/80 backdrop-blur-md border-b border-stone-200 sticky top-0 z-40">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="../index.html" class="flex items-center gap-2">
+          <span class="text-2xl">🌍</span>
+          <span class="text-lg font-bold text-stone-800">Global Holiday Tracker</span>
+        </a>
+        <nav class="flex items-center gap-4 text-sm">
+          <a href="about.html" class="text-stone-500 hover:text-purple-600 transition-colors">About</a>
+          <a href="faq.html" class="text-purple-600 font-medium">FAQ</a>
+          <a href="privacy.html" class="text-stone-500 hover:text-purple-600 transition-colors">Privacy</a>
+          <a href="terms.html" class="text-stone-500 hover:text-purple-600 transition-colors">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <article class="bg-white rounded-2xl shadow-sm border border-stone-200 p-8">
+      <h1 class="text-3xl font-bold text-stone-800 mb-6">Frequently Asked Questions</h1>
+
+      <div class="space-y-6">
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">How do I track holidays for multiple countries?</h2>
+          <p class="text-stone-600">Use the country selector at the top of the page. You can search for countries, click the popular country buttons, or browse the full list. Select up to 6 countries at a time. Each country is assigned a unique color for easy identification in the calendar and holiday list.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">How do I export holidays to my calendar?</h2>
+          <p class="text-stone-600">Click the download icon next to any holiday to export it as a .ics file, or use the "Export All Holidays" button to download all holidays for your selected countries. The .ics file is compatible with Google Calendar, Apple Calendar, Microsoft Outlook, and most other calendar applications. Simply open the downloaded file and your calendar app will import the events.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">Where does the holiday data come from?</h2>
+          <p class="text-stone-600">Public holiday data is sourced from the <a href="https://date.nager.at/" target="_blank" rel="noopener" class="text-purple-600 hover:underline">Nager.Date API</a>, which supports over 100 countries. The data includes official public holidays, bank holidays, and observances. E-commerce events (like Black Friday, Singles Day) are maintained separately and dates may be approximate.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">Is the data accurate?</h2>
+          <p class="text-stone-600">Public holiday data from the Nager.Date API is regularly updated and generally accurate. However, some countries may announce holidays on short notice, or dates may shift. E-commerce events like Amazon Prime Day have approximate dates that may change. We recommend verifying critical dates with local sources.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">What are e-commerce events?</h2>
+          <p class="text-stone-600">E-commerce events are major commercial shopping events that are important for online sellers and marketers. These include Black Friday, Cyber Monday, Singles Day (11.11), Amazon Prime Day, and seasonal sales events. They are shown with a gold/amber badge to distinguish them from public holidays.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">Can I change the language?</h2>
+          <p class="text-stone-600">Yes! Global Holiday Tracker supports 8 languages: English, Korean, Japanese, Chinese, Spanish, German, French, and Portuguese. Use the language switcher in the header to change the interface language. Holiday names are shown in both the local language (from the API) and English.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">Why is there a limit of 6 countries?</h2>
+          <p class="text-stone-600">To ensure fast loading and a readable calendar view, we limit the selection to 6 countries at a time. Each country requires separate API calls, and the calendar becomes cluttered with too many color-coded dots. You can easily switch countries at any time.</p>
+        </div>
+
+        <div class="pb-6">
+          <h2 class="text-lg font-semibold text-stone-800 mb-2">Is this service free?</h2>
+          <p class="text-stone-600">Yes, Global Holiday Tracker is completely free. No registration is required, and there are no premium features. The service is supported by ads.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="border-t border-stone-200 mt-8 py-6 text-center text-xs text-stone-400">
+    <p>&copy; 2026 Global Holiday Tracker. Data by <a href="https://date.nager.at/" target="_blank" rel="noopener" class="text-purple-500 hover:underline">Nager.Date API</a>.</p>
+  </footer>
+</body>
+</html>

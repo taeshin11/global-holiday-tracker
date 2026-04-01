@@ -1,0 +1,21 @@
+{
+  "project": "GlobalHolidayTracker",
+  "features": [
+    { "id": "F01", "name": "Project Scaffold & Tailwind Setup", "milestone": 1, "status": "complete" },
+    { "id": "F02", "name": "Nager.Date API Integration", "milestone": 1, "status": "complete" },
+    { "id": "F03", "name": "Country Selector (Multi-Select)", "milestone": 2, "status": "complete" },
+    { "id": "F04", "name": "Upcoming Holidays List with Countdown Timers", "milestone": 2, "status": "complete" },
+    { "id": "F05", "name": "Monthly Calendar View", "milestone": 3, "status": "complete" },
+    { "id": "F06", "name": "E-commerce Events Highlighted", "milestone": 3, "status": "complete" },
+    { "id": "F07", "name": "Export to .ics Calendar", "milestone": 4, "status": "complete" },
+    { "id": "F08", "name": "Color-Coded by Country", "milestone": 4, "status": "complete" },
+    { "id": "F09", "name": "Auto i18n (8+ Languages)", "milestone": 5, "status": "complete" },
+    { "id": "F10", "name": "SEO Optimization", "milestone": 5, "status": "complete" },
+    { "id": "F11", "name": "Ad Integration (Adsterra + AdSense)", "milestone": 6, "status": "complete" },
+    { "id": "F12", "name": "Google Sheets Webhook", "milestone": 6, "status": "complete" },
+    { "id": "F13", "name": "Visitor Counter", "milestone": 6, "status": "complete" },
+    { "id": "F14", "name": "Feedback & Social Sharing", "milestone": 7, "status": "complete" },
+    { "id": "F15", "name": "Static Pages (About, FAQ, Privacy, Terms)", "milestone": 7, "status": "complete" },
+    { "id": "F16", "name": "Deployment to Vercel", "milestone": 8, "status": "complete" }
+  ]
+}
