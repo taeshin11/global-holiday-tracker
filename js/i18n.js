@@ -406,6 +406,17 @@ const I18N = {
   currentLang: 'EN',
 
   init() {
+    // ?lang=xx URL parameter takes highest priority
+    const urlParam = new URLSearchParams(window.location.search).get('lang');
+    if (urlParam) {
+      const urlLang = urlParam.toUpperCase();
+      if (this.translations[urlLang]) {
+        this.currentLang = urlLang;
+        localStorage.setItem('ght_language', urlLang);
+        this.updatePageLanguage();
+        return;
+      }
+    }
     const saved = localStorage.getItem('ght_language');
     if (saved && this.translations[saved]) {
       this.currentLang = saved;
