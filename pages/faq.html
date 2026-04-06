@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ - Global Holiday Tracker</title>
-  <meta name="description" content="Frequently asked questions about Global Holiday Tracker - multi-country holiday tracking and calendar export.">
+  <title>FAQ - Global Holiday Tracker | Frequently Asked Questions</title>
+  <meta name="description" content="Answers to common questions about Global Holiday Tracker: supported countries, calendar export, data accuracy, e-commerce events, language support, and more.">
   <link rel="canonical" href="https://global-holiday-tracker.vercel.app/pages/faq.html">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,54 +32,62 @@
 
   <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <article class="bg-white rounded-2xl shadow-sm border border-stone-200 p-8">
-      <h1 class="text-3xl font-bold text-stone-800 mb-6">Frequently Asked Questions</h1>
+      <h1 class="text-3xl font-bold text-stone-800 mb-2">Frequently Asked Questions</h1>
+      <p class="text-stone-500 mb-8">Everything you need to know about using Global Holiday Tracker effectively.</p>
 
-      <div class="space-y-6">
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">How do I track holidays for multiple countries?</h2>
-          <p class="text-stone-600">Use the country selector at the top of the page. You can search for countries, click the popular country buttons, or browse the full list. Select up to 6 countries at a time. Each country is assigned a unique color for easy identification in the calendar and holiday list.</p>
+      <div class="space-y-8">
+
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">Which countries are supported, and how many can I track at once?</h2>
+          <p class="text-stone-600 leading-relaxed">Global Holiday Tracker currently supports public holiday data for more than 100 countries through the Nager.Date API. The list includes all major economies and many smaller nations across every continent. You can browse the full country list by clicking the search field in the country selector at the top of the main page. While you have access to data for over 100 countries, the interface allows you to track up to six countries simultaneously in a single session. This limit exists to keep the calendar readable and to ensure fast data loading — displaying holidays for more than six countries at once creates visual clutter that makes the calendar difficult to interpret. You can switch countries at any time without losing your other selections; simply add a new country and remove one you no longer need. Popular country quick-select buttons are displayed at the top of the selector for the most frequently accessed nations.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">How do I export holidays to my calendar?</h2>
-          <p class="text-stone-600">Click the download icon next to any holiday to export it as a .ics file, or use the "Export All Holidays" button to download all holidays for your selected countries. The .ics file is compatible with Google Calendar, Apple Calendar, Microsoft Outlook, and most other calendar applications. Simply open the downloaded file and your calendar app will import the events.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">How often is the holiday data updated, and how current is it?</h2>
+          <p class="text-stone-600 leading-relaxed">Holiday data is fetched in real time from the Nager.Date API each time you load the page or change your country or year selection. The underlying Nager.Date database is maintained by an active open-source community and is regularly updated to reflect confirmed holiday announcements from governments around the world. For the current year, the data is generally accurate and complete for all supported countries. For future years, data is added progressively as governments finalize and publish their official holiday calendars — some countries announce holidays 12 months or more in advance, while others confirm them only weeks beforehand. If you are planning far ahead for a specific country and some dates appear incomplete, check back periodically as the data is updated continuously throughout the year. For the most time-sensitive decisions, we always recommend cross-referencing with the official government website or national tourism board of the relevant country.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">Where does the holiday data come from?</h2>
-          <p class="text-stone-600">Public holiday data is sourced from the <a href="https://date.nager.at/" target="_blank" rel="noopener" class="text-purple-600 hover:underline">Nager.Date API</a>, which supports over 100 countries. The data includes official public holidays, bank holidays, and observances. E-commerce events (like Black Friday, Singles Day) are maintained separately and dates may be approximate.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">How do I export holidays to my calendar application?</h2>
+          <p class="text-stone-600 leading-relaxed">There are two export methods available. First, you can export individual holidays by clicking the download icon that appears on each holiday card. This generates a single .ics file for that specific holiday. Second, you can use the "Export All Holidays" button in the controls bar above the holiday list — this creates a single .ics file containing all holidays for all your currently selected countries in the current year. The .ics (iCalendar) format is an open standard supported by virtually every calendar application in existence, including Google Calendar, Apple Calendar (iCal), Microsoft Outlook, Thunderbird, Proton Calendar, and many others. To import on Google Calendar, open the .ics file in your browser or email client — Google Calendar will prompt you to add the events automatically. On Apple Calendar, double-click the downloaded file and it will open directly in the app. On Microsoft Outlook, go to File > Open > Import and select the .ics file. Once imported, holiday events become permanent entries in your calendar and will show up alongside your existing appointments.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">Is the data accurate?</h2>
-          <p class="text-stone-600">Public holiday data from the Nager.Date API is regularly updated and generally accurate. However, some countries may announce holidays on short notice, or dates may shift. E-commerce events like Amazon Prime Day have approximate dates that may change. We recommend verifying critical dates with local sources.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">What exactly are e-commerce events, and how are they different from public holidays?</h2>
+          <p class="text-stone-600 leading-relaxed">E-commerce events are major commercial shopping occasions that drive significant consumer spending but are not official public holidays declared by any government. They include globally recognized retail events such as Black Friday (the Friday after U.S. Thanksgiving), Cyber Monday (the Monday following Black Friday), Singles Day on November 11th (the world's largest single-day shopping event, originating in China), Amazon Prime Day (typically held in July, exact dates confirmed annually by Amazon), Diwali shopping season (the Hindu festival of lights, which drives massive retail activity across South and Southeast Asia), the Lunar New Year shopping period (critically important for Chinese and East Asian markets), and seasonal events like Back to School season and major end-of-year sales. These events are displayed in the holiday list with a distinctive gold or amber badge to clearly distinguish them from official public holidays. E-commerce events also appear in the dedicated sidebar section on the right side of the main page, sorted by upcoming date with a live day counter. Dates for commercial events are approximate and maintained manually — Amazon Prime Day, for instance, is not announced until a few months before it occurs, so dates for future years are estimated based on historical patterns.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">What are e-commerce events?</h2>
-          <p class="text-stone-600">E-commerce events are major commercial shopping events that are important for online sellers and marketers. These include Black Friday, Cyber Monday, Singles Day (11.11), Amazon Prime Day, and seasonal sales events. They are shown with a gold/amber badge to distinguish them from public holidays.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">What languages does the interface support, and how do I switch languages?</h2>
+          <p class="text-stone-600 leading-relaxed">Global Holiday Tracker is fully localized in eight languages: English, Korean (한국어), Japanese (日本語), Chinese Simplified (中文简体), Spanish (Español), German (Deutsch), French (Français), and Portuguese (Português). When you switch languages, the entire interface updates — navigation elements, button labels, section headings, date formats, and countdown labels all adapt to the selected language. Holiday names are displayed in English by default, with local-language names shown where available from the API. To switch languages, click the language selector icon in the upper right corner of the header on the main page. Your language selection is saved in your browser's local storage and will persist across future visits. The URL also updates with a language parameter (e.g., ?lang=ko) which means you can bookmark or share a URL in a specific language for consistent access. For users who primarily operate in non-English markets, setting your preferred language first makes the tool significantly more useful for day-to-day planning.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">Can I change the language?</h2>
-          <p class="text-stone-600">Yes! Global Holiday Tracker supports 8 languages: English, Korean, Japanese, Chinese, Spanish, German, French, and Portuguese. Use the language switcher in the header to change the interface language. Holiday names are shown in both the local language (from the API) and English.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">Is Global Holiday Tracker compatible with mobile devices and tablets?</h2>
+          <p class="text-stone-600 leading-relaxed">Yes, Global Holiday Tracker is fully responsive and designed to work well on smartphones, tablets, and desktop computers. The layout adapts automatically to your screen size — on mobile, the sidebar collapses and content stacks vertically for comfortable scrolling, while on larger screens the full two-column layout with the sidebar is displayed. The calendar view is horizontally scrollable on narrow screens, and all touch interactions including country selection, holiday card tapping, and calendar navigation are optimized for touch interfaces. The application is also installable as a Progressive Web App (PWA) on both Android and iOS devices. On Android, open the site in Chrome and tap "Add to Home Screen" from the browser menu. On iOS, open the site in Safari and use the Share menu to select "Add to Home Screen." Once installed, the app opens in a dedicated window without browser chrome, providing a more app-like experience. The PWA also supports the Web Share API, so you can share holiday information directly to messaging apps, email, or other apps on your device.</p>
         </div>
 
-        <div class="border-b border-stone-100 pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">Why is there a limit of 6 countries?</h2>
-          <p class="text-stone-600">To ensure fast loading and a readable calendar view, we limit the selection to 6 countries at a time. Each country requires separate API calls, and the calendar becomes cluttered with too many color-coded dots. You can easily switch countries at any time.</p>
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">How accurate is the public holiday data, and what are its limitations?</h2>
+          <p class="text-stone-600 leading-relaxed">The public holiday data sourced from the Nager.Date API is generally highly accurate for the countries it covers. The database is maintained by an active contributor community and draws on official government sources. However, there are inherent limitations you should be aware of. First, some countries have holidays that are announced with very little advance notice — for example, certain countries may declare emergency public holidays for state events, elections, or national mourning periods that no pre-compiled database can predict. Second, a small number of countries have regional variations in public holidays that differ between states, provinces, or territories; the data shown reflects the national-level public holidays, not regional variations. Third, some observances listed in the API as "public holidays" may actually be optional or partial holidays in practice (meaning businesses remain open). Finally, Islamic holidays like Eid al-Fitr and Eid al-Adha are based on lunar calendar sightings and their exact dates may shift by one or two days from predictions. For business-critical scheduling, we strongly recommend verifying critical dates with the official government or labor authority website of the relevant country.</p>
+        </div>
+
+        <div class="border-b border-stone-100 pb-8">
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">How do I change the country or year I am viewing?</h2>
+          <p class="text-stone-600 leading-relaxed">The country selector is the large panel at the very top of the main page. It contains a search field where you can type any country name to filter the list, popular country quick-select buttons for the most commonly viewed nations, and a scrollable list of all available countries. To add a country, simply click its name or button — it will be added to your active selection and assigned a color. To remove a country, click the colored pill showing the country name above the holiday list, or click the country again in the selector. You can have between one and six countries active at any time. To change the year, look for the year selector — typically shown as left and right arrow buttons alongside the current year — in the calendar view or in the controls bar. Changing the year reloads holiday data for the selected year from the API. The tracker supports viewing historical years as well as future years, though future year data becomes progressively less complete as it depends on government announcements not yet made. Your country and year selections are preserved in your browser's local storage so they are remembered between visits.</p>
         </div>
 
         <div class="pb-6">
-          <h2 class="text-lg font-semibold text-stone-800 mb-2">Is this service free?</h2>
-          <p class="text-stone-600">Yes, Global Holiday Tracker is completely free. No registration is required, and there are no premium features. The service is supported by ads.</p>
+          <h2 class="text-lg font-semibold text-stone-800 mb-3">Is Global Holiday Tracker free, and how does it sustain itself?</h2>
+          <p class="text-stone-600 leading-relaxed">Global Holiday Tracker is completely free to use for everyone. There is no subscription, no freemium tier, no premium features locked behind a paywall, and no registration required. The service sustains itself through advertising revenue from Google AdSense and Adsterra display advertising networks, which show relevant advertisements to visitors. These advertisements are clearly identifiable as ads and do not affect the holiday data or functionality of the tool in any way. We are committed to keeping the core service free and accessible to users worldwide. If you find the tool valuable for your work or personal planning, sharing it with colleagues, teammates, or in relevant online communities is the best way to support us. We do not sell user data and the only personal information we ever receive is what you voluntarily provide if you choose to send us an email with feedback.</p>
         </div>
+
       </div>
     </article>
   </main>
 
   <footer class="border-t border-stone-200 mt-8 py-6 text-center text-xs text-stone-400">
-    <p>&copy; 2026 Global Holiday Tracker. Data by <a href="https://date.nager.at/" target="_blank" rel="noopener" class="text-purple-500 hover:underline">Nager.Date API</a>.</p>
+    <p>&copy; 2026 Global Holiday Tracker. Data by <a href="https://date.nager.at/" target="_blank" rel="noopener" class="text-purple-500 hover:underline">Nager.Date API</a>. | <a href="about.html" class="hover:text-purple-500">About</a> | <a href="faq.html" class="hover:text-purple-500">FAQ</a> | <a href="privacy.html" class="hover:text-purple-500">Privacy Policy</a> | <a href="terms.html" class="hover:text-purple-500">Terms of Service</a></p>
   </footer>
 </body>
 </html>
